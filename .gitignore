@@ -1,0 +1,6 @@
+properties.csv
+users.csv
+history.csv
+applications.csv
+
+*.swp

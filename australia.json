@@ -1,0 +1,77 @@
+{
+    "Gender": {
+        "Female": 0.51,
+        "Male": 0.49
+    },
+    "Age": {
+        "18 - 24": 0.14,
+        "25 - 34": 0.22,
+        "35 - 44": 0.20,
+        "45 - 54": 0.18,
+        "Over 55": 0.26 
+    },
+    "State": {
+        "Australian Capital Territory": 0.02,
+        "New South Wales": 0.32,
+        "Northern Territory": 0.01,
+        "Queensland": 0.20,
+        "South Australia": 0.07,
+        "Tasmania": 0.02,
+        "Victoria": 0.26,
+        "Western Australia": 0.10
+    },
+    "Employment Indicator": {
+        "E": {"Age": {"Over 55": 0.10, "": 0.80}},
+        "U": {"Age": {"Over 55": 0.20, "": 0.15}},
+        "R": {"Age": {"Over 55": 0.70, "": 0.05}}
+    },
+    "Job Industry": {
+        "Agriculture, Forestry and Fishing": 0.026,
+        "Mining": 0.017,
+        "Manufacturing": 0.071,
+        "Electricity, Gas, Water and Waste Services": 0.011,
+        "Construction": 0.094,
+        "Wholesale Trade": 0.030,
+        "Retail Trade": 0.104,
+        "Accommodation and Food Services": 0.072,
+        "Transport, Postal and Warehousing": 0.052,
+        "Information Media and Telecommunications": 0.017,
+        "Financial and Insurance Services": 0.034,
+        "Rental, Hiring and Real Estate Services": 0.018,
+        "Professional, Scientific and Technical Services": 0.083,
+        "Administrative and Support Services": 0.032,
+        "Public Administration and Safety": 0.060,
+        "Education and Training": 0.082,
+        "Health Care and Social Assistance": 0.134,
+        "Arts and Recreation Services": 0.020,
+        "Other Services": 0.042
+    },
+    "Job Nature": {
+        "Full Time": {"Age": {"18 - 24": 0.20, "": 0.50}},
+        "Part Time": {"Age": {"18 - 24": 0.30, "": 0.30}},
+        "Casual":    {"Age": {"18 - 24": 0.50, "": 0.20}}
+    },
+    "Job Length": {
+        "<1 Year": 0.3,
+        "<2 Years": 0.3,
+        "<5 Years": 0.3,
+        "5+ Years": 0.1
+    },
+    "Residency Status": {
+        "Citizen": 0.5,
+        "PR": 0.3,
+        "Visa": 0.2
+    },
+    "pet_indicator": {
+        "Yes": 0.30,
+        "No": 0.70
+    },
+    "vehicle_indicator": {
+        "Yes": 0.40,
+        "No": 0.60
+    },
+    "dependent_indicator": {
+        "Yes": 0.20,
+        "No": 0.80
+    }
+}
