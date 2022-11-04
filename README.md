@@ -1,4 +1,4 @@
-# gcp-hackday-data-generator
+# population-data-generator
 
 Generates population test data based on universal estimates
 
